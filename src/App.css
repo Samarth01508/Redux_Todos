@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+}
+.heading {
+  text-align: center;
+  font-size: 30px;
+}
+#task-input-bar {
+  margin-top: 20px;
+  margin-left: 10px;
+  padding: 5px 5px 5px 5px;
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+  font-family: monospace;
+  font-size: 20px;
+}
+#addTask-button {
+  margin: 5px;
+  cursor: pointer;
+  background-color: #abef9c;
+  border: 2px solid #111;
+  border-radius: 4px;
+  font-family: sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+  padding: 2px 20px;
+}
+#addTask-button:hover {
+  background-color: rgb(93, 233, 93);
+}
+.taskList-element {
+  list-style: none;
+  margin: 2px;
+  padding: 20px;
+  border-radius: 10px;
+  width: 80%;
+  background-color: antiquewhite;
+}
+.Complete-btn {
+  margin: 5px;
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 5px;
+  font-family: sans-serif;
+  background-color: rgb(0, 149, 255);
+  width: 100px;
+  cursor: pointer;
+}
+.Incomplete-btn {
+  margin: 5px;
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 5px;
+  font-family: sans-serif;
+  background-color: rgb(227, 232, 88);
+  width: 100px;
+  cursor: pointer;
+}
+.completed-taskList {
+  font-family: monospace;
+  font-size: 20px;
+  margin: 30px 10px;
+  padding: 5px;
+}
+.incomplete-taskList {
+  font-family: monospace;
+  font-size: 20px;
+  margin: 30px 10px;
+  padding: 5px;
+}
+.Remove-btn {
+  margin: 5px;
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 5px;
+  font-family: sans-serif;
+  background-color: rgb(243, 95, 95);
+  width: 70px;
+  cursor: pointer;
+}
